@@ -1,4 +1,14 @@
 .header {
   display: flex;
   flex-direction: column;
+  background: #FCFBF4;
+}
+
+.hader__image {
+  width: 30vh;
+  margin: auto;
+}
+
+.header__title {
+  font-family: changa;
 }

@@ -1,0 +1,17 @@
+.body {
+  height: 100vh;
+  width: 100%;
+}
+
+.body::before {
+  content: "";
+  background-image: url("../tile_background(2).png");
+  background-size: 1000px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: -1
+}
