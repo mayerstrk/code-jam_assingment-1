@@ -1,0 +1,30 @@
+.lead {
+  width: 50%;
+  margin: 0 auto 8vh;
+}
+
+.lead__intro {
+  font-size: 30px;
+  margin: 5vh 0 0;
+  font-weight: 200;
+}
+
+.lead__title {
+  margin: 0;
+  font-family: changa;
+  text-align: right;
+  font-weight: 1000;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 1150px ) {
+  .lead {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 950px ) {
+  .lead {
+    width: 75%
+  }
+}

@@ -1,7 +1,9 @@
 .header {
   display: flex;
-  flex-direction: column;
-  background: #FCFBF4;
+  /* background: #FCFBF4; */
+  height: fit-content;
+  align-items: center;
+  padding: 0 3vw 0;
 }
 
 .hader__image {
@@ -11,4 +13,13 @@
 
 .header__title {
   font-family: changa;
+  margin: 0;
+  font-size: 60px;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 750px) {
+  .header{
+    flex-flow: column
+  }
 }

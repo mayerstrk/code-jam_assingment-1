@@ -1,0 +1,20 @@
+.nav {
+  margin-left: auto;
+  display: flex;
+  gap: 15px;
+}
+
+.nav__item {
+  font-family: changa;
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 750px) {
+  .nav {
+    margin: 0
+  }
+}

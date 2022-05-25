@@ -5,4 +5,19 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Bizud";
+  src: url("./BIZUDPGothic-Regular.woff") format("woff"),
+    url("./BIZUDPGothic-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Bizud";
+  src: url("./BIZUDPGothic-Bold.woff") format("woff"),
+    url("./BIZUDPGothic-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+
 
