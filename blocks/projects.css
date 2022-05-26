@@ -16,6 +16,7 @@
 }
 
 .projects__card {
+  box-sizing: border-box;
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
@@ -47,10 +48,38 @@
 }
 
 .projects__card-info {
+  line-height: 2;
+}
 
+.projects__card-list {
+  list-style: none;
 }
 
 .projects__card-paragraph {
   text-align: justify;
   line-height: 2;
+}
+
+.projects__button {
+  margin: 3vh 0 0;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 3px;
+  min-width: 150px;
+  border: none;
+  transition: ease-in-out 0.2s;
+  box-shadow: 0 5px #666;
+}
+
+.projects__button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.projects__button:active {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
 }
