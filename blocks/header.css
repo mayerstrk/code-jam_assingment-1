@@ -22,6 +22,11 @@
   text-rendering: optimizeLegibility;
 }
 
+.header__title:hover {
+  color: #0882FF;
+  cursor: default;
+}
+
 @media screen and (max-width: 750px) {
   .header{
     flex-flow: column;

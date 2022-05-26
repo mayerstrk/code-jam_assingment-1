@@ -10,11 +10,21 @@
 }
 
 .lead__title {
-  margin: 0;
+  margin: 0 0 3vh;
+  padding-right: 1vw;
   font-family: changa;
   text-align: right;
   font-weight: 1000;
   font-size: 60px;
+  transition: all .4s ease-in;
+}
+
+.lead__title:hover {
+  transform: translate(20px, -20px);
+  margin-top: 25px;
+  box-shadow: 0 5px #666;
+  border: 1px solid #000;
+  cursor: default;
 }
 
 @media screen and (max-width: 1150px ) {

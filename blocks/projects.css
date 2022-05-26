@@ -1,0 +1,50 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects__title {
+  margin: 0 0 3vh;
+  font-family: changa;
+  font-size: 30px;
+  border-bottom: 2px solid #000;
+}
+
+.projects__cards {
+  display: flex;
+}
+
+.projects__card {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  background: rgba(252,251,244, .4);
+  min-height: 400px;
+  max-width: 1200px;
+  margin: auto;
+  border: 2px solid #000;
+  border-radius: 20px;
+  box-shadow: 0 5px #666;
+  padding: 3vh 3vh;
+}
+
+.projects__card-title {
+  margin: 0;
+  font-family: changa;
+  font-size: 20px;
+  align-self: flex-end;
+  justify-content: flex-start;
+}
+
+.projects__card-info {
+
+}
+
+.projects__card-paragraph {
+  text-align: justify;
+  line-height: 2;
+}

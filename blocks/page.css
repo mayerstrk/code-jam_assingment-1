@@ -1,4 +1,6 @@
 .page {
   font-family: Bizud;
   min-width: 540px;
+  padding-bottom: 6vh;
+  margin: 0 auto;
 }

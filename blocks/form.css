@@ -27,7 +27,7 @@
 }
 
 .form__button_state_checked {
-  background: url("../images/5740102_check_checklist_list_mark_ok_icon.svg");
+  background: url("../images/form/5740102_check_checklist_list_mark_ok_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -37,7 +37,6 @@
 }
 
 .form__button:enabled:hover {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
   margin-left: 10px;
   cursor: pointer;

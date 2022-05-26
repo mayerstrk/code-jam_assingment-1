@@ -11,6 +11,14 @@
   cursor: auto;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  transition: all .2s ease-in-out;
+}
+
+.nav__item:hover {
+  color: #0882FF;
+  cursor: pointer;
+  padding: 0 20px 0;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 750px) {
