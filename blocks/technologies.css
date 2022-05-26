@@ -30,5 +30,11 @@
 
 .technologies__list-item {
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.technologies__list-item:hover {
+    transform: scale(1.2);
 }
