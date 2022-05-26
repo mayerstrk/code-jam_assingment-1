@@ -1,0 +1,51 @@
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form__button {
+  box-sizing: border-box;
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 3px;
+  min-width: 150px;
+  border: none;
+  transition: ease-in-out 0.2s;
+}
+
+.form__button_inactive {
+  background: transparent;
+  color: black;
+  transition: all ease-in-out 0.2s;
+  border: 1px solid #000;
+  opacity: 0.5;
+}
+
+.form__button:enabled:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.form__button:enabled:active {
+  background: url("../images/5740102_check_checklist_list_mark_ok_icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: transparent;
+}
+
+
+
+.form__input {
+  padding: 20px;
+  font-size: 10px;
+  flex: 1 1 auto;
+}
