@@ -6,3 +6,9 @@
   border: 2px solid #000;
   border-radius: 20px;
 }
+
+.section-card__title {
+  margin: 0;
+  font-family: changa;
+  font-size: 30px;
+}
