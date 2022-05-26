@@ -8,26 +8,21 @@
 .about__image-wrapper {
   box-sizing: border-box;
   flex: 1 1 auto;
-  border-radius: 50%;
+  border-radius: 15px;
   padding: 10px;
-  border: 1px solid #000;
-  transition: all .1s linear;
+  /* border: 2px solid #000; */
+  transition: all 0.4s linear;
   width: 50%;
   height: 100%;
   overflow: hidden;
-  box-shadow: 0 5px #666;
 }
 
 .about__image-wrapper:hover {
-  border: 5px solid #0882ff;
-}
-
-.about__image {
-  transition: all 1s ease-in-out;
-}
-
-.about__image:hover {
-  transform: scale(1.1)
+  transform: translate(10px, -30px);
+  margin-top: 25px;
+  box-shadow: 0 10px #666;
+  border: 1px solid #000;
+  cursor: default;
 }
 
 .about__text-box {

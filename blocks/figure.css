@@ -28,6 +28,5 @@
 
 .figure__img:hover {
     transform: scale(1.3);
-    padding: 0 5px 0;
     margin: 1vw;
 }
