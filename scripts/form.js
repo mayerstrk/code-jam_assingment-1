@@ -4,21 +4,25 @@ const contactInput = form.querySelector(".form__input")
 
 const handleFormSubmit = (evt) => {
   evt.preventDefault();
-  contactButton.classList.add("form__button_click")
+  //prevents user from submitting more than once;
+  disableButton(contactButton)
+  contactButton.classList.add("form__button_state_checked");
+  contactInput.classList.add("form__input_checked");
+  contactInpit.disabled = true;
 }
 
 const hasInvalidInput = (inputElement) => {
     return !inputElement.validity.valid;
 };
 
-const disableButton = (button, config) => {
+const disableButton = (button) => {
   button.disabled = true;
-  button.classList.add("form__button_inactive");
+  button.classList.add("form__button_state_inactive");
 };
 
-const enableButton = (button, config) => {
+const enableButton = (button) => {
   button.disabled = false;
-  button.classList.remove("form__button_inactive");
+  button.classList.remove("form__button_state_inactive");
 };
 
 const toggleButtonState = (inputElement, buttonElement,) => {

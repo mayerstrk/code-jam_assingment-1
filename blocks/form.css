@@ -17,12 +17,22 @@
   transition: ease-in-out 0.2s;
 }
 
-.form__button_inactive {
+.form__button_state_inactive {
   background: transparent;
   color: black;
   transition: all ease-in-out 0.2s;
   border: 1px solid #000;
   opacity: 0.5;
+}
+
+.form__button_state_checked {
+  background: url("../images/5740102_check_checklist_list_mark_ok_icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  opacity: 1;
+  box-shadow: 0 5px #666;
 }
 
 .form__button:enabled:hover {
@@ -40,12 +50,16 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   color: transparent;
+
 }
-
-
 
 .form__input {
   padding: 20px;
   font-size: 10px;
   flex: 1 1 auto;
+  transition: ease-in-out 0.2s;
+}
+
+.form__input_checked {
+  box-shadow: 0 5px #666;
 }
