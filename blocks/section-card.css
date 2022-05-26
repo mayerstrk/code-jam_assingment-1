@@ -1,7 +1,9 @@
 .section-card {
+  box-sizing: border-box;
   width: 100%;
   background: rgba(252,251,244, .4);
   min-height: 400px;
+  max-width: 1200px;
   margin: auto;
   border: 2px solid #000;
   border-radius: 20px;

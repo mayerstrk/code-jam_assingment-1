@@ -5,7 +5,7 @@ const contactInput = form.querySelector(".form__input")
 const handleFormSubmit = (evt) => {
   evt.preventDefault();
   //prevents user from submitting more than once;
-  disableButton(contactButton)
+  disableButton(contactButton);
   contactButton.classList.add("form__button_state_checked");
   // contactInpit.disabled = true;
 }

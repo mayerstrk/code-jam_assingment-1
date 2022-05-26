@@ -24,6 +24,7 @@
 
 @media screen and (max-width: 750px) {
   .header{
-    flex-flow: column
+    flex-flow: column;
+    background: rgba(255, 253, 208, .9);
   }
 }
