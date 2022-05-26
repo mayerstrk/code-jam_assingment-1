@@ -7,13 +7,15 @@
 
 .body::before {
   content: "";
-  background-image: url("../tile_background(2).png");
+  background-image: url("../tile_background(3).png");
+  background-repeat: repeat;
   background-size: 1000px;
-  position: absolute;
+  position: fixed;
+  height: 100vh;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 1;
+  opacity: 0.8;
   z-index: -1
 }

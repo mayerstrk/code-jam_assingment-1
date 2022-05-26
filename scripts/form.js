@@ -8,7 +8,7 @@ const handleFormSubmit = (evt) => {
   disableButton(contactButton)
   contactButton.classList.add("form__button_state_checked");
   contactInput.classList.add("form__input_checked");
-  contactInpit.disabled = true;
+  // contactInpit.disabled = true;
 }
 
 const hasInvalidInput = (inputElement) => {
