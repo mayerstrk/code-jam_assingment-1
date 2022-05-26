@@ -1,6 +1,10 @@
 .header {
+  box-sizing: border-box;
   display: flex;
-  /* background: #FCFBF4; */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(252,251,244, .8);
   height: fit-content;
   align-items: center;
   padding: 0 3vw 0;
