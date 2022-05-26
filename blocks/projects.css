@@ -28,8 +28,14 @@
   margin: auto;
   border: 2px solid #000;
   border-radius: 20px;
-  box-shadow: 0 5px #666;
   padding: 3vh 3vh;
+  transition: all 0.4s ease-in-out;
+}
+
+.projects__card:hover{
+  box-shadow: 0 5px #666;
+  border: 2px solid #000;
+  cursor: default;
 }
 
 .projects__card-title {
