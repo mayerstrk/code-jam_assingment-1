@@ -19,7 +19,6 @@
 
 .about__image-wrapper:hover {
   transform: translate(10px, -30px);
-  margin-top: 25px;
   box-shadow: 0 10px #666;
   border: 1px solid #000;
   cursor: default;
