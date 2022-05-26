@@ -9,13 +9,10 @@
   content: "";
   background-image: url("../tile_background(3).png");
   background-repeat: repeat;
-  background-size: 1000px;
   position: fixed;
-  height: 100vh;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  top:0;
+  width: 100%;
+  height: 150vh;
   opacity: 0.8;
   z-index: -1
 }
